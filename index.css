@@ -1,12 +1,21 @@
+nav {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color: white;
+   z-index: 2;
+} 
+
 li {
    list-style-type: none; 
 }
 
 .nav-right {
 
-    width: 27%;
+    width: 15%;
     display: flex;
     justify-content: space-between;
+    margin-right: 25px;
 }
 .nav-left {
    display: flex;
@@ -21,18 +30,21 @@ li a {
 }
 .first-nav {
    background-color: black;
-   display: flex; 
+   left: 0;
+   font-size: small;
+   padding: 5px;
+   
+}
+nav .first-nav {
+   display: flex;
    justify-content: space-between;
-   
-   padding: 10px;
-   
 }
 
 .navbar-left {
    display: flex;
    justify-content: space-between;
    width: 50%;
-   padding: 10px 7px 10px 7px;
+   padding: 9px 6px 9px 6px;
    color: grey;
 
 }
@@ -54,12 +66,10 @@ li a {
    background-color: yellow; 
    padding: 5px;
    padding-left: 140px;
+   font-size: small;
+   margin-top: 0;
 }
-.nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
+
  
 @media screen and (max-width: 1024px) and (min-width: 768px)
  {
@@ -76,5 +86,200 @@ li a {
         font-size: small;
     }
  }
+
+ .grid-1 {
+   background: linear-gradient( rgba(187,7,36,0.7), rgba(0,0,0)), 
+   url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
+   background-size: cover; 
+   position: relative; 
+   
+
+ }
+ .tnw {
+  width: 500px;
+  height: 200px;
+  
+  
+ }
  
 
+ .tnw-logo {
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+
+ }
+ .date {
+    color: white;
+    padding-top: 4rem;
+    padding-right: 1rem;
+ }
+ .container a {
+    text-decoration: none;
+ }
+ .tnw-article  {
+    font-weight: bold;
+    color: white;
+    padding-left: 30px;
+    font-size: 3.5rem;
+    padding: 1.5rem;
+    
+    
+ }
+ .tnw-story {
+    color: white;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+ }
+ .google {
+   background: /* top, transparent red, faked with gradient */ linear-gradient( rgba(184, 184, 184, 0.3), rgba(0, 0, 0) ), /* bottom, image */
+    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F01%2FUntitled-design-2021-01-26T112752.972.png&signature=b2e8b5d510569266b394c40b67b8900c");
+   background-size: cover;
+   height: 233px;
+   position: relative;
+ }
+   
+
+
+ 
+ .section1 {
+    position: absolute;
+    bottom: 1px;
+    padding: 8px 5px 1px 8px;
+    
+ }
+ .section1, h3 {
+   color: white;
+   font-size: 1.5rem;
+   margin-bottom: 0;
+   padding-bottom: 0;
+}
+ .th {
+   color: white; 
+   padding: 0;
+   margin: 0;
+   width: 60%;
+   font-size: small;
+
+ }
+ .section2, .th {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .mac{
+    background: linear-gradient( rgba(184, 184, 184, 0.3), rgba(0,0,0) ),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933.png");
+    background-size: cover;
+    height: 233px;
+    position: relative;
+ }
+ .section3 {
+    
+   color: whitesmoke;
+   position: absolute;
+   bottom: 0;
+   padding: 8px 5px 1px 8px;
+
+   }
+    .mac-article {
+      font-size: small;
+      color: grey;
+      width: 60%;
+      padding: 0;
+      margin: 0;
+   }
+   .section2, .mac-article {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .container {
+     display: grid;
+     grid-template-columns: 2fr 1fr;
+     grid-gap: 10px;
+     margin: 0 5px 5px 5px;
+     padding: 4.5rem 0 0 0;
+      
+   }
+   .section2 {
+     display: grid;
+     grid-template-columns: 1fr; 
+     grid-gap: 10px;
+   }
+
+   .new {
+      color: orangered;
+      font-size: 1.8rem;
+      font-weight: bolder;
+   }
+   img {
+      height: 168px;
+      width: 300px;
+   }
+   .grid-image {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-gap: 20px 20px;
+   }
+   a {
+      text-decoration: none;
+   }
+   .section4 {
+      width: 90%;
+      margin: auto;
+      padding-top: 2rem;
+      
+   }
+   .bridge, h4 {
+      color: black;
+      margin-top: 3px;
+
+   }
+   .bridge,p {
+      color: grey;
+      font-size: small;
+   }
+   .sub-section1 {
+      padding-top: 5rem;
+      display: flex;
+      justify-content: space-between;
+   }
+   .section4 h1 {
+      color: orangered;
+      font-weight: bolder;
+      font-size: 1.8rem;
+   }
+   
+   
+   
+    .sub-section2 {
+       display: flex;
+       justify-content: space-between;
+       margin-top: 1rem;
+       width: 30%;
+}
+   .sub-section2  p {
+   color: orangered;
+ }
+ .gid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+ }
+.ringover-background {
+   background-color: orangered;
+   
+}
+.gid h4 {
+   color: white;
+}
+.swiss {
+  background-color: pink; 
+  height: 70px;
+  
+}
