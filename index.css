@@ -266,20 +266,45 @@ nav .first-nav {
    .sub-section2  p {
    color: orangered;
  }
+ .pix {
+   
+   
+   max-width: 60px;
+   
+   max-height: 60px;
+   position: absolute;
+   
+   
+   
+ }
  .gid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
+    
  }
-.ringover-background {
-   background-color: orangered;
-   
-}
-.gid h4 {
-   color: white;
-}
-.swiss {
-  background-color: pink; 
-  height: 70px;
-  
+ .ringover-background {
+    background-color: orangered;
+ }
+ .ringover-background h4 {
+   margin-left: 80px;
+   padding: 10px 20px 10px 20px;
+ }
+
+ 
+ .h3-container {
+    background-color: pink;
+    
+ }
+ .p-tag {
+    margin-top: -20px;
+    margin-left: 80px;
+    font-size: 20px;
+ }
+ .swiss p {
+   margin-left: 80px;
+ }
+.sub-section10 {
+   border-top: 1px solid pink;
+   padding: 1rem 0;
 }
