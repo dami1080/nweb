@@ -24,7 +24,7 @@ li {
    
     
 }
-li a {
+.home {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
@@ -235,12 +235,12 @@ nav .first-nav {
       padding-top: 2rem;
       
    }
-   .bridge, h4 {
+   .bridge h4 {
       color: black;
       margin-top: 3px;
 
    }
-   .bridge,p {
+   .mat {
       color: grey;
       font-size: small;
    }
@@ -280,7 +280,7 @@ nav .first-nav {
  .gid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+    grid-gap: 10px;
     
  }
  .ringover-background {
@@ -306,5 +306,135 @@ nav .first-nav {
  }
 .sub-section10 {
    border-top: 1px solid pink;
-   padding: 1rem 0;
+   
+}
+.css-grid-1 h2 {
+   color: orangered;
+}
+.css-grid-2 h2 {
+   color: orangered;
+}
+.css-grid-3 h2 {
+   color: orangered;
+}
+
+.hard {
+ background:  linear-gradient( rgba(184, 184, 184, 0.3),
+ rgba(0, 0, 0)),
+ url(./images/gamestop.jpg);
+ background-repeat: no-repeat;
+ height: 250px;
+ width: 400px;
+ position: relative;
+ background-size: cover;
+}
+.apps {
+   background: linear-gradient( rgba(184, 184, 184, 0.3),
+   rgba(0, 0, 0)),
+   url(./images/phones.webp);
+   background-repeat: no-repeat;
+   height: 250px;
+   width: 400px;
+   position: relative;
+   background-size: cover;
+}
+.gear {
+   background: linear-gradient( rgba(184, 184, 184, 0.3),
+   rgba(0, 0, 0)),
+   url(./images/iphone.jpg);
+   background-repeat: no-repeat;
+   height: 250px;
+   width: 400px;
+   position: relative;
+   background-size: cover;
+}
+
+.app-article {
+   position: absolute;
+   bottom: 3px;
+   padding: 8px;
+}
+.gear-article {
+   position: absolute;
+   bottom: 3px;
+   padding: 8px;
+}
+.stop-game {
+   position: absolute;
+   bottom: 3px;
+   padding: 8px;
+}
+.gallery {
+   width: 100%;
+   height: 100%;
+   padding: 1px;
+}
+.css-grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 20px 20px;
+   margin-top: 50px;
+}
+.latest {
+   display: grid;
+   grid-template-columns: 3fr 1.5fr;
+   background-color: #ffc0cb;
+   padding-left: 10px;
+   margin: 0;
+   
+   
+}
+.lower-case {
+   color: orangered;
+   font-size: 10px;
+}
+.liverpool {
+   color: orangered;
+   font-size: 20px;
+   margin-bottom: 10px;
+   margin-top: auto;
+
+}
+.list-items::before {
+   content: "\2022";
+   color: orangered;
+   margin-left: -1rem;
+   
+}
+.list-items {
+   border-bottom: 1px solid grey;
+   font-size: 13px;
+   padding: 10px 2px 10px 7px;
+
+}
+.link {
+   color: grey;
+}
+.list {
+   padding-left: 10px;
+}
+.paragraph {
+   color: white;
+   font-size: 14px;
+
+   
+}
+.stop-game h4 {
+   color: white;
+   margin-top: -15px;
+}
+.reduced {
+   color:grey;
+   margin-top: -18px;
+   margin-bottom: 0;
+   font-size: small;
+
+}
+.apps h4 {
+   color: white;
+   margin-top: -15px;
+}
+.gear-article h4 {
+   color: white;
+   margin-top: -15px;
 }
