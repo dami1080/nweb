@@ -1,3 +1,9 @@
+
+body {
+   font-size: small;
+   margin: 0;
+}
+
 nav {
    position: fixed;
    top: 0;
@@ -74,7 +80,7 @@ nav .first-nav {
 @media screen and (max-width: 1024px) and (min-width: 768px)
  {
     .nav-left {
-        width: 55%;
+        width: 25%;
         
     }
  }
@@ -88,8 +94,8 @@ nav .first-nav {
  }
 
  .grid-1 {
-   background: linear-gradient( rgba(187,7,36,0.7), rgba(0,0,0)), 
-   url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
+   background: linear-gradient( rgba(187,7,36,0.3), rgba(0,0,0)), 
+   url("./images/highlights-article-1.jpg");
    background-size: cover; 
    position: relative; 
    
@@ -123,7 +129,7 @@ nav .first-nav {
     font-weight: bold;
     color: white;
     padding-left: 30px;
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     padding: 1.5rem;
     
     
@@ -239,6 +245,9 @@ nav .first-nav {
       color: black;
       margin-top: 3px;
 
+   }
+   .bridge h4:hover {
+     color: orangered; 
    }
    .mat {
       color: grey;
@@ -386,7 +395,7 @@ nav .first-nav {
 }
 .lower-case {
    color: orangered;
-   font-size: 10px;
+   font-size: 15px;
 }
 .liverpool {
    color: orangered;
@@ -422,15 +431,16 @@ nav .first-nav {
 .stop-game h4 {
    color: white;
    margin-top: -15px;
+
 }
-.reduced {
+ .reduced { 
    color:grey;
    margin-top: -18px;
    margin-bottom: 0;
    font-size: small;
 
-}
-.apps h4 {
+ } 
+.app-article h4 {
    color: white;
    margin-top: -15px;
 }
@@ -438,3 +448,155 @@ nav .first-nav {
    color: white;
    margin-top: -15px;
 }
+ 
+ .tech {
+   background: linear-gradient( rgba(184, 184, 184, 0.3),
+   rgba(0, 0, 0)),
+   url(./images/toys.jpg);
+   background-repeat: no-repeat;
+   height: 250px;
+   width: 400px;
+   position: relative;
+   background-size: cover;
+}
+
+ 
+ .podium {
+   background: linear-gradient( rgba(184, 184, 184, 0),
+   rgba(0, 0, 0)),
+   url();
+   background-repeat: no-repeat;
+   height: 250px;
+   width: 400px;
+   position: relative;
+   background-size: cover;
+ }
+ .creative {
+   background: linear-gradient( rgba(184, 184, 184, 0.3),
+   rgba(0, 0, 0)),
+   url(./images/topview.webp);
+   background-repeat: no-repeat;
+   height: 250px;
+   width: 400px;
+   position: relative;
+   background-size: cover;
+ }
+ .distract {
+   background: linear-gradient( rgba(184, 184, 184, 0.3),
+   rgba(0, 0, 0)),
+   url(./images/amplified-368x276.jpg);
+   background-repeat: no-repeat;
+   height: 250px;
+   width: 400px;
+   position: relative;
+   background-size: cover;
+ }
+ .launch {
+   background: linear-gradient( rgba(184, 184, 184, 0.3),
+   rgba(0, 0, 0)),
+   url(./images/toyota.jpg);
+   background-repeat: no-repeat;
+   height: 250px;
+   width: 400px;
+   position: relative;
+   background-size: cover;
+ }
+ .insights {
+   background: linear-gradient( rgba(184, 184, 184, 0.3),
+   rgba(0, 0, 0)),
+   url(./images/zoom.webp);
+   background-repeat: no-repeat;
+   height: 250px;
+   width: 400px;
+   position: relative;
+   background-size: cover;
+ }
+ .hat-hacker {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px 20px;
+ }
+ .bundle h4 {
+    color: black;
+    margin-top: 3px;
+ }
+ .bundle p {
+    color: grey;
+    font-size: small;
+ }
+ .bundle h4:hover {
+    color: orangered;
+ }
+ .inside-span {
+    text-decoration: line-through;
+ }
+ .deals {
+    color: orangered;
+ }
+ .footer-8 img {
+    width: 100px;
+    height: 16px;
+    padding-top: 1rem;
+ }
+ .footer-6 img {
+    width: 50px;
+    height: 16px;
+    padding-top: 1rem;
+ }
+ .footer-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+    padding-top: 1rem;
+ }
+ 
+ .footer-3 {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 10px;
+ }
+ .footer-5 {
+    display: flex;
+    width: 50%;
+    margin: auto;
+ }
+ .footer-1 {
+    background-color: rgba(0,0,0,0.8);
+    margin-top: 5rem;
+    padding: 1rem;
+    /* width: 100%; */
+ }
+ .footer-4 {
+    background-color: black;
+    width: 100%;
+ }
+ .footer-2 i {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 50%;
+ }
+ 
+ .footer-3 p {
+    color: rgba(255, 255, 255, 0.7);
+ }
+ .footer-7 {
+    color: rgba(255, 255, 255, 0.7);
+     font-size: small; 
+    padding-top: 3px;
+ }
+ .swiss p {
+    color: grey;
+ }
+ .ringover-background h4 {
+    color: white;
+ }
+ .sub-section10 p {
+    color: grey;
+ }
+ .grey {
+    color: grey;
+ }
